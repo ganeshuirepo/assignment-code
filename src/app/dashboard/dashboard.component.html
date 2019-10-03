@@ -1,0 +1,40 @@
+<html>
+  <head>
+      <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+  </head>
+  <body class="content">
+
+      <header class="heading">
+        <div class="heading heading--line"></div>
+         <h1 class="heading heading--text">result of the test</h1>
+      </header>
+  <div class="content-body">
+    <nav class="components">
+        <a class="tile" [routerLink] = "['/never']">
+          <img class="components tile--image" src="../../assets/images/calender.png"/>
+          <p class="components tile--text">Never</p>
+        </a>
+        <a class="tile" [routerLink] = "['/occasional']">
+          <img class="components tile--image" src="../../assets/images/calender-tick.png"/>
+          <p class="components tile--text">Occasionaly</p>
+        </a>
+        <a class="tile" [routerLink] = "['/hours']">
+          <img class="components tile--image" src="../../assets/images/clock.png"/>
+          <p class="components tile--text">4 Hours</p>
+        </a>
+        <a class="tile" [routerLink] = "['/yearly']">
+          <img class="components tile--image" src="../../assets/images/message.png"/>
+          <p class="components tile--text">Yearly</p>
+        </a>
+        <a class="tile" [routerLink] = "['/never']">
+          <img class="components tile--image" src="../../assets/images/calender.png"/>
+          <p class="components tile--text">Never</p>
+        </a>
+    </nav>
+    <app-rangebar></app-rangebar>
+
+    <a class="btn-link btn-link--animated" href="#">Try Again <span>&rarr;</span></a>
+
+  </div>
+  </body>
+</html>
